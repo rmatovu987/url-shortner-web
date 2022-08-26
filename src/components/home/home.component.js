@@ -3,7 +3,8 @@ export default class Home extends Component {
   render() {
     return (
       <div className='Home'>
-        Welcome
+        Welcome to the Url Shortner Service. <br/>
+        Home is under construction....
       </div>
     )
   }
