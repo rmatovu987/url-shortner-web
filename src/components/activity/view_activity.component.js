@@ -31,7 +31,7 @@ export default function ViewActivity() {
         body: JSON.stringify(postData),
       };
 
-      const res = await fetch("http://127.0.0.1:3000/urls", requestOptions);
+      const res = await fetch("http://18.141.56.186/urls", requestOptions);
 
       if (!res.ok) {
         const message = `An error has occured: ${res.status} - ${res.statusText}`;
