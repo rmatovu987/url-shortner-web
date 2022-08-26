@@ -37,7 +37,7 @@ export default function Login() {
       };
 
       const res = await fetch(
-        "http://18.141.56.186/api/users/login",
+        "http://localhost:3000/api/users/login",
         requestOptions
       );
 

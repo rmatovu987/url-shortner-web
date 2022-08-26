@@ -50,7 +50,7 @@ export default function SignUp() {
       };
 
       const res = await fetch(
-        "http://18.141.56.186/api/users/sign_up",
+        "http://localhost:3000/api/users/sign_up",
         requestOptions
       );
 
