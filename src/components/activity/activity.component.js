@@ -11,7 +11,7 @@ export default class Activity extends Component {
   }
 
   componentDidMount() {
-    fetch("http://http://18.141.56.186/urls", {
+    fetch("http://18.141.56.186/urls", {
       headers: {
         Authorization: `Bearer ` + sessionStorage.getItem("url_token"),
       },

@@ -44,5 +44,5 @@
   "devDependencies": {
     "sass": "^1.54.5"
   },
-  "proxy": "http://http://18.141.56.186"
+  "proxy": "http://18.141.56.186"
 }
