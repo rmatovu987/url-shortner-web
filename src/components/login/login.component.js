@@ -37,7 +37,7 @@ export default function Login() {
       };
 
       const res = await fetch(
-        "http://18.141.56.186/api/users/login",
+        `${process.env.REACT_APP_BASE_URL}`.concat('/api/users/login'),
         requestOptions
       );
 
